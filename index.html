@@ -14,28 +14,28 @@
   <header>
     <nav class="navbar">
         <ul class="navbar-menu">
-            <li class="navbar-item"><a href="#">Inicio</a></li>
-            <li class="navbar-item"><a href="#">Servicios</a></li>
-            <li class="navbar-item"><a href="#">Productos</a></li>
-            <li class="navbar-item"><a href="#">Contacto</a></li>
+            <li class="navbar-item"><a href="#home">Inicio</a></li>
+            <li class="navbar-item"><a href="#services">Servicios</a></li>
+            <li class="navbar-item"><a href="#portfolio">Porfolio</a></li>
+            <li class="navbar-item"><a href="#contact">Contacto</a></li>
           </ul>
         <img src="isotipo.svg" class="isotipo" alt="">
         <button class="navbar-toggle" aria-label="Toggle Menu">
           <i class="fas fa-bars"></i>
         </button>
         <ul class="list__sm">
-            <li class="list__sm--icon"><i class="fab fa-whatsapp"></i></li>
-            <li class="list__sm--icon"><i class="fa-brands fa-instagram"></i></li>
+            <li class="list__sm--icon"><a href=""><i class="fab fa-whatsapp"></i></a></li>
+            <li class="list__sm--icon"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
           </ul>
       </nav>      
 </header>
-  <section class="firstvh vh">
+  <section class="firstvh vh" id="home">
     <video autoplay muted loop id="videoBackground">
       <source src="./Fondocompawebsite.mp4" type="video/mp4">
     </video>
       <img src="./Compa logo blanco-01.png" class="logo" alt="">
   </section>
-  <section class="secondvh vh">
+  <section class="secondvh vh" id="about">
       <div class="about__content">
         <div class="about__content--letter">
           <h2 class="about__content--title">
@@ -57,7 +57,7 @@
       </div>
   </section>
 
-  <section class="thirdvh vh">
+  <section class="thirdvh vh" id="services">
     <article class="services__container">
          <div class="card">
           <div class="card__content">
@@ -94,7 +94,7 @@
         </div>
     </article>
   </section>
-  <section class="fourvh vh">
+  <section class="fourvh vh" id="portfolio">
     <article class="fourvh__content">
       <div class="project ">
         <img src="./Logos Portafolio/mockup-computer.png" alt="">
@@ -113,10 +113,12 @@
         </div>
       </div>
       <div class="project ">
-        <img src="./Logos Portafolio/mockup-gerardojao.png" alt="">
+        <a href="https://www.behance.net/axelarrieta1" target="_blank"><img src="./Logos Portafolio/mockup-gerardojao.png" alt=""></a>
         <div class="text__container">
           <p>
-            In our design agency, we have had the pleasure of working on an project for Gerardojao, a talented programmer, and YouTuber. Our creative team made an effort to come up with a logo that reflects his personality and unique style.
+            In our design agency, we have had the pleasure of working on an project
+            for Gerardojao, a talented programmer, and YouTuber. Our creative team
+            made an effort to come up with a logo that reflects his personality and unique style.
             We used subtle geometric shapes that symbolize his passion for programming and technology.  
           </p>
           <div>
@@ -126,10 +128,16 @@
         </div>
       </div>
       <div class="project ">
-        <img src="./Logos Portafolio/mockup-jeas-pc.png" alt="">
+        <a href="https://axelfas.github.io/JeasTattoo/" target="_blank"><img src="./Logos Portafolio/mockup-jeas-pc.png" alt=""></a>
         <div class="text__container">
           <p>
-            Hemos tenido el privilegio de trabajar en un emocionante proyecto para un tatuador profesional. Nuestro equipo creativo se dedicó a diseñar una página web única que reflejara el talento y la pasión del tatuador. Desde la disposición de las imágenes hasta la elección de colores, todo se diseñó para representar el estilo y la identidad del tatuador. Además, se incorporó una sección de portafolio para mostrar su trabajo anterior.
+            We have had the privilege of working on an exciting project for a 
+            professional tattoo artist. Our creative team dedicated themselves 
+            to designing a unique website that reflects the talent and passion 
+            of the tattoo artist. From the layout of the images to the choice 
+            of colors, everything was designed to represent the tattoo artist's 
+            style and identity. Additionally, we incorporated a portfolio section
+            to showcase their previous work.
           </p>
           <div>
            <span>HTML</span>
@@ -139,10 +147,14 @@
         </div>
       </div>
       <div class="project ">
-        <img src="./Logos Portafolio/mockup-jeas.png" alt="">
+        <a href="https://www.behance.net/axelarrieta1" target="_blank"><img src="./Logos Portafolio/mockup-jeas.png" alt="Jeas Brand"></a>
         <div class="text__container">
           <p>
-            En una emocionante colaboración, nuestra agencia de diseño ha desarrollado una marca personal única para un tatuador profesional. Cada detalle ha sido meticulosamente diseñado para cautivar a la audiencia. Desde el diseño del logotipo hasta la elección de los colores distintivos, cada aspecto ha sido cuidadosamente seleccionado para transmitir la singularidad del tatuador
+            In an exciting collaboration, our design agency has developed a unique 
+            personal brand for a professional tattoo artist. Every detail has been 
+            meticulously designed to captivate the audience. From the logo design to 
+            the choice of distinctive colors, each aspect has been carefully selected 
+            to convey the tattoo artist's uniqueness.
           </p>
           <div>
             <span>Adobe Illustrator</span>
@@ -151,7 +163,7 @@
         </div>
       </div>
       <div class="project ">
-        <img src="./Logos Portafolio/mockup-tablet.png" alt="">
+        <a href="https://axelfas.github.io/MyPortfolio/" target="_blank"><img src="./Logos Portafolio/mockup-tablet.png" alt="Axel Arrieta"></a>
         <div class="text__container">
           <p>Simply, the portfolio of one of our employees. This is a project entirely made by our designer. He created a super creative and interactive interface.</p>
          <div>
@@ -165,17 +177,50 @@
       </div>
 <div>
         <div class="project last">
-         <img src="./Logos Portafolio/natura-mockup.png" alt="">
-        <div class="text__container">
-          <p>Here is a branding project for a skincare brand called 'Natura.' The objective was to create a cohesive and authentic brand identity that resonates with the target audience. The designer incorporated nature-inspired elements and soothing color palettes to convey the brand's commitment to natural and organic ingredients.</p>
+          <a href="https://www.behance.net/axelarrieta1" target="_blank"><img src="./Logos Portafolio/natura-mockup.png" alt="Natura"></a>
+          <div class="text__container">
+            <p>Here is a branding project for a skincare brand called 'Natura.' The objective was to create a cohesive and authentic brand identity that resonates with the target audience. The designer incorporated nature-inspired elements and soothing color palettes to convey the brand's commitment to natural and organic ingredients.</p>
           <div>
-            <span>Adobe Illustrator</span>
-          </div>
+          <span>Adobe Illustrator</span>
+        </div>
         </div>
       </div>
     </article>
   </section>
+  <section class="fivevh vh" id="contact">
+    <div class="text-container">
+      <h2>Let's Connect</h2>
+    </div>
+      <div class="login-box">
+        <form action="https://formsubmit.co/compaestudios@gmail.com" method="POST">
+          <div class="user-box">
+            <input pattern="^[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{2,}$" type="text" name="name" required type="text" name="" required="">
+            <label>Name</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="email" required>
+            <label>Email</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="Subject" required>
+            <label>Subject</label>
+          </div>
+          <div class="send__container">
+            <button href="#">
+              SEND
+            </button>
+          </div>
+        </form>
+      </div>
+  </section>
 
+  <footer>
+    <section>
+      <a href=""><i class="fab fa-whatsapp"></i></a>
+      <a href=""><i class="fab fa-instagram"></i></a>
+      <a href=""><i class="fab fa-whatsapp"></i></a>
+    </section>
+  </footer>
 <script src="script.js">
   </script>
 </body>
