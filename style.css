@@ -392,6 +392,7 @@ transition: 0.2s ease-in-out all;
   width: 100%;
   display: inline-block;
   color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 .fourvh__content span{
   padding: 5px 12px;
@@ -401,6 +402,7 @@ transition: 0.2s ease-in-out all;
   margin: 5px 5px;
   width: fit-content;
   cursor: pointer;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
   transition: 0.2s ease-in-out all;
 }
 .fourvh__content span:hover{
