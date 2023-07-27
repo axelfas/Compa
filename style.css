@@ -240,16 +240,6 @@ transition: 0.2s ease-in-out all;
 .services__buttons button a{
 }
 .thirdvh{
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-image: url(./background\ four.png.jpg) center center fixed; 
-  background-size: cover;
-  padding: 20px;
-  min-height: 100vh;
-  height: fit-content; */
-
   background: url(./background\ four.png)center center fixed;
   background-size: cover;
   height: fit-content;
@@ -579,7 +569,7 @@ visibility: visible;
 
 .navbar-item {
 background: rgba(255, 255, 255, 0.6);
-backdrop-filter: blur(10px);
+backdrop-filter: blur(30px);
 display: inline-block;
 height: 100%;
 width: 100%;
@@ -602,6 +592,8 @@ padding: 30px;
 display: flex;
 justify-content: center;
 align-items: center;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+font-size: 25px;
 }
 .list__sm{
   display: none;
