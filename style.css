@@ -5,8 +5,11 @@
   font-family: 'OpenSans';
 }
 html{
-  scroll-behavior: smooth
-  ;
+  scroll-behavior: smooth;
+}
+body{
+  background: url(./background\ four.png) center center fixed;
+  background-size: cover;
 }
 @font-face{
   font-family: 'Montserrat';
@@ -96,11 +99,11 @@ transition: 0.2s ease-in-out all;
 .list__sm{
   display: flex;
   list-style: none;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .list__sm i{
-  margin: 0px 10px;
+  padding: 0px 0px 0px 20px;
   color: white;
 }
 .vh{
@@ -112,24 +115,8 @@ transition: 0.2s ease-in-out all;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12 , 0.75)), url(./Street-Mockup.png) no-repeat center center;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12 , 0.75)), url(./background\ four.png) no-repeat center center;
   background-size: cover;
-}
-
-.video-section {
-  position: relative;
-  height: 100%;
-  overflow: hidden;
-}
-
-#videoBackground {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
 }
 
 .logo__container{
@@ -154,16 +141,12 @@ transition: 0.2s ease-in-out all;
   bottom: 10px;
 }
 .secondvh{
-  background: url(./background\ four.png) center center fixed;
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
 }
 .background__urban{
-  background-image: url(./Urban\ contrast.jpg);
-  background-size: cover;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -223,10 +206,6 @@ transition: 0.2s ease-in-out all;
   border: white solid 1px;
   height: fit-content;
   transition: ease-in-out all .2s;
-  color: white;
-  display: inline-block;
-  text-decoration: none;
-  padding: 5px 12px;
 }
 .services__buttons button:hover{
   transform: translateY(-4px) translateX(-2px);
@@ -238,10 +217,14 @@ transition: 0.2s ease-in-out all;
   box-shadow: 0 0 0 0 white;
 }
 .services__buttons button a{
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 12px;
 }
 .thirdvh{
-  background: url(./background\ four.png)center center fixed;
-  background-size: cover;
   height: fit-content;
   min-height: 100vh;
   background-position: center;
@@ -327,8 +310,6 @@ transition: 0.2s ease-in-out all;
   opacity: 1;
 }
 .fourvh{
-  background: url(./background\ four.png)center center fixed;
-  background-size: cover;
   height: fit-content;
   min-height: 100vh;
   background-position: center;
@@ -409,8 +390,6 @@ transition: 0.2s ease-in-out all;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(./background\ four.png)center center fixed;
-  background-size: cover;
 }
 .text-container {
   width: 100%;
@@ -504,8 +483,6 @@ transition: 0.2s ease-in-out all;
               0 0 100px #9553FF;
 }
 footer{
-  background: url(./background\ four.png)center center fixed;
-  background-size: cover;
   width: 100%;
   height: 50px;
   display: flex;
@@ -569,7 +546,7 @@ visibility: visible;
 
 .navbar-item {
 background: rgba(255, 255, 255, 0.6);
-backdrop-filter: blur(30px);
+backdrop-filter: blur(10px);
 display: inline-block;
 height: 100%;
 width: 100%;
@@ -588,12 +565,10 @@ text-decoration: none;
 color: white;
 width: 100%;
 height: 100%;
-padding: 30px;
 display: flex;
 justify-content: center;
 align-items: center;
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-font-size: 25px;
+font-size: 30px;
 }
 .list__sm{
   display: none;
